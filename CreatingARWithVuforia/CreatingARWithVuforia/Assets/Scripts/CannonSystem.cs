@@ -7,13 +7,14 @@ using UnityEngine.Events;
 public class CannonSystem : MonoBehaviour 
 {
 	[Header("Firing Properties")]
-	public float maxProjectileForce = 18000f;   //Maximum force of a projectile
+	public float maxProjectileForce = 180f;   //Maximum force of a projectile
 	public float cooldown = 1f;
 
 	[Header("Projectile Properties")]
-	public GameObject projectilePrefab;			//The projectile to be shot
+    public GameObject bulletPrefab;
+    public Transform bulletSpawn;
 
-	Transform projectileSpawnTransform;         //Location where the projectiles should spawn
+    Transform projectileSpawnTransform;         //Location where the projectiles should spawn
 	bool canShoot = true;
 	Animator anim;								//Reference to the animator component
 
@@ -33,9 +34,18 @@ public class CannonSystem : MonoBehaviour
 		if (!canShoot)
 			return;
 
-		GameObject go = (GameObject)Instantiate(projectilePrefab, projectileSpawnTransform.position, projectileSpawnTransform.rotation);
-		Vector3 force = projectileSpawnTransform.transform.forward * maxProjectileForce;
-		go.GetComponent<Rigidbody>().AddForce(force) ;
+        var bullet = (GameObject)Instantiate(
+            bulletPrefab,
+            bulletSpawn.position,
+            bulletSpawn.rotation);
+
+        // Add velocity to the bullet
+        Vector3 speed = new Vector3(1, 0, 0);
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward;
+        //bullet.GetComponent<Rigidbody>().angularVelocity = bullet.transform.up;
+
+        // Destroy the bullet after 2 seconds
+        Destroy(bullet, 2.0f);
 		anim.SetTrigger ("Fire");
 
 		canShoot = false;

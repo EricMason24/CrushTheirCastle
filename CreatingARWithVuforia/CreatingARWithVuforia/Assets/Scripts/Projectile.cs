@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class Projectile : MonoBehaviour
 {
 	[Header("Projectile Properties")]
-	public float lifeTime = 2.0f;               //The amount of time the projectile lives
+	public float lifeTime = 10.0f;               //The amount of time the projectile lives
 	public float explosionDuration = 3f;
 	public float explosionForce = 100f;			//The amount of force the projectile explodes with
 	public float explosionRadius = 4f;			//The radius of the explosion
@@ -19,7 +19,7 @@ public class Projectile : MonoBehaviour
 
 	Rigidbody rigidBody;						//Reference to the rigidbody of the projectile
 	Collider sphereCollider;					//Reference to the collider of the projectile
-    bool exploded;								//Has the projectile exploded?
+    //bool exploded;								//Has the projectile exploded?
 
 
     void Awake()
@@ -36,15 +36,15 @@ public class Projectile : MonoBehaviour
 		//If the projectile has no life left...
 		if (lifeTime <= 0f)
 		{
-			//...make it explode and then destroy it
-			Explode();
-		}
+            //...make it explode and then destroy it
+            Destroy(gameObject);
+        }
 	}
 
     void OnCollisionEnter( Collision collision )
     {
 		//We've hit something, so explode
-		Explode();
+		//Explode();
 
 		//Try to get a Target script off of the thing we hit
 		Target target = collision.gameObject.GetComponent<Target>();
@@ -53,7 +53,8 @@ public class Projectile : MonoBehaviour
 		if ( target != null )
 			target.Hit();
     }
-
+    
+    /*
     void Explode()
     {
 		//If we've already exploded, leave
@@ -82,4 +83,5 @@ public class Projectile : MonoBehaviour
 
 		Destroy(gameObject, explosionDuration);
 	}
+    */
 }
