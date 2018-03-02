@@ -32,4 +32,7 @@ sysinfo.txt
 
 # Builds
 *.apk
+*.exe
+*.xcodeproj
 *.unitypackage
+iosCrushTheCastle

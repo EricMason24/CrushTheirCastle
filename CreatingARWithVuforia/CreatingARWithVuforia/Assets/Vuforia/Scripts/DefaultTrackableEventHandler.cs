@@ -20,7 +20,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #endregion // PRIVATE_MEMBER_VARIABLES
 
-    #region UNITY_MONOBEHAVIOUR_METHODS
+    #region UNTIY_MONOBEHAVIOUR_METHODS
 
     protected virtual void Start()
     {
@@ -29,7 +29,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
     }
 
-    #endregion // UNITY_MONOBEHAVIOUR_METHODS
+    #endregion // UNTIY_MONOBEHAVIOUR_METHODS
 
     #region PUBLIC_METHODS
 

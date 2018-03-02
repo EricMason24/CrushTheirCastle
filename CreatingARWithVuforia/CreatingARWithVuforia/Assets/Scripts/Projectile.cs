@@ -7,7 +7,8 @@ using UnityEngine.Events;
 public class Projectile : MonoBehaviour
 {
 	[Header("Projectile Properties")]
-	public float lifeTime = 10.0f;               //The amount of time the projectile lives
+	public float lifeTime = 2.0f;               //The amount of time the projectile lives
+	public float gravity = 9.8f;
 	public float explosionDuration = 3f;
 	public float explosionForce = 100f;			//The amount of force the projectile explodes with
 	public float explosionRadius = 4f;			//The radius of the explosion
@@ -54,6 +55,11 @@ public class Projectile : MonoBehaviour
 			target.Hit();
     }
     
+	void OnTriggerEnter( Collider collider) {
+		if (collider.gameObject.CompareTag("ground")) {
+			Destroy (gameObject);
+		}
+	}
     /*
     void Explode()
     {
