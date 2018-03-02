@@ -21,6 +21,14 @@ public class CannonSystem : MonoBehaviour
 	public Slider heightSlider;
 	public Slider powerSlider;
 
+    [Header("Canvas Objects")]
+    public Canvas Canvas1;
+    public Canvas Canvas2;
+
+    [Header("Player Turn")]
+    public float PTurn;
+
+    
     Transform projectileSpawnTransform;         //Location where the projectiles should spawn
 	bool canShoot = true;
 	Animator anim;								//Reference to the animator component
@@ -31,8 +39,7 @@ public class CannonSystem : MonoBehaviour
 		//Get a reference to the projectile spawn point. By providing the path to the object like this, we are making an 
 		//inefficient method call more efficient
 		projectileSpawnTransform = GameObject.Find("Geometry/Cockpit/Turret Elevation Pivot Point/Projectile Spawn Point").transform;
-
-
+ 
 		maxProjectileForce = powerSlider.value;
 
 
@@ -60,6 +67,20 @@ public class CannonSystem : MonoBehaviour
 		anim.SetTrigger ("Fire");
 
 		canShoot = false;
+
+        //change canvas depending on the current player turn
+        if(PTurn == 1)
+        {
+            Canvas1.transform.position.Set(0, 0, 0);
+            Canvas2.transform.position.Set(0, 0, 1);
+        }
+
+        if(PTurn == 2)
+        {
+            Canvas2.transform.position.Set(0, 0, 0);
+            Canvas1.transform.position.Set(0, 0, 1);
+            
+        }
 		Invoke("CoolDown", cooldown);
 	}
 

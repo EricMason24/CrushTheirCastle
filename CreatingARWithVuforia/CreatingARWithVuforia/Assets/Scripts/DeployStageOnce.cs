@@ -1,6 +1,8 @@
 ﻿using System;
 using UnityEngine;
 using Vuforia;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class DeployStageOnce : MonoBehaviour {
 
@@ -8,7 +10,11 @@ public class DeployStageOnce : MonoBehaviour {
 	private PositionalDeviceTracker _deviceTracker;
 	private GameObject _previousAnchor;
 
-	public void Start ()
+    [Header("Canvas Ojects")]
+    public Canvas Canvas1;
+
+
+    public void Start ()
 	{
 		if (AnchorStage == null)
 		{
@@ -32,6 +38,7 @@ public class DeployStageOnce : MonoBehaviour {
 	private void OnVuforiaStarted()
 	{
 		_deviceTracker = TrackerManager.Instance.GetTracker<PositionalDeviceTracker>();
+        Canvas1.transform.position.Set(0, 0, 1);
 	}
 
 	public void OnInteractiveHitTest(HitTestResult result)
