@@ -51,8 +51,10 @@ public class Projectile : MonoBehaviour
 		Target target = collision.gameObject.GetComponent<Target>();
 
 		//If there was a Target script on the thing we hit, tell it we hit it
-		if ( target != null )
-			target.Hit();
+		if (target != null && !target.gameObject.CompareTag(gameObject.tag)) {
+			target.Hit ();
+			Destroy (gameObject);
+		}
     }
     
 	void OnTriggerEnter( Collider collider) {

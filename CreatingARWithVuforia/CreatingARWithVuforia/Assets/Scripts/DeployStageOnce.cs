@@ -9,9 +9,11 @@ public class DeployStageOnce : MonoBehaviour {
 	public GameObject AnchorStage;
 	private PositionalDeviceTracker _deviceTracker;
 	private GameObject _previousAnchor;
+	private int sanity;
 
     [Header("Canvas Ojects")]
-    public Canvas Canvas1;
+    public Canvas Canvas2;
+	public Canvas vicCanvas;
 
 
     public void Start ()
@@ -23,6 +25,7 @@ public class DeployStageOnce : MonoBehaviour {
 		}
 
 		AnchorStage.SetActive(false);
+		sanity = 0;
 	}
 
 	public void Awake()
@@ -38,7 +41,8 @@ public class DeployStageOnce : MonoBehaviour {
 	private void OnVuforiaStarted()
 	{
 		_deviceTracker = TrackerManager.Instance.GetTracker<PositionalDeviceTracker>();
-        Canvas1.transform.position.Set(0, 0, 1);
+		Canvas2.gameObject.SetActive (false);
+		vicCanvas.gameObject.SetActive (false);
 	}
 
 	public void OnInteractiveHitTest(HitTestResult result)
@@ -51,7 +55,7 @@ public class DeployStageOnce : MonoBehaviour {
 
 		var anchor = _deviceTracker.CreatePlaneAnchor(Guid.NewGuid().ToString(), result);
 
-		if (anchor != null)
+		if (anchor != null && sanity == 0)
 		{
 			AnchorStage.transform.parent = anchor.transform;
 			AnchorStage.transform.localPosition = Vector3.zero;
@@ -59,11 +63,6 @@ public class DeployStageOnce : MonoBehaviour {
 			AnchorStage.SetActive(true);
 		}
 
-		if (_previousAnchor != null)
-		{
-			Destroy(_previousAnchor);
-		}
-
-		_previousAnchor = anchor;
+		sanity++;
 	}
 }

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - p1
+  - p2
+  - p2treasure
+  - p1treasure
   layers:
   - Default
   - TransparentFX
