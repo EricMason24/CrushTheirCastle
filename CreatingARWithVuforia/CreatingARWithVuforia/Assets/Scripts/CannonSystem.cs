@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 public class CannonSystem : MonoBehaviour 
 {
+
+    public int playerID;
+
 	[Header("Firing Properties")]
 	public float maxProjectileForce = 1f;   //Maximum force of a projectile
 	public float cooldown = 1f;
@@ -14,7 +17,6 @@ public class CannonSystem : MonoBehaviour
 	[Header("Projectile Properties")]
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
-	public int playerID;
 
 	[Header("UI Objects")]
 	public Slider angleSlider;
@@ -26,9 +28,6 @@ public class CannonSystem : MonoBehaviour
     [Header("Canvas Objects")]
     public Canvas Canvas1;
     public Canvas Canvas2;
-
-    [Header("Player Turn")]
-    public float PTurn;
 
     
     Transform projectileSpawnTransform;         //Location where the projectiles should spawn
@@ -73,13 +72,13 @@ public class CannonSystem : MonoBehaviour
 		canShoot = false;
 
         //change canvas depending on the current player turn
-        if(PTurn == 1)
+        if(playerID == 1)
         {
 			Canvas1.gameObject.SetActive (false);
 			Canvas2.gameObject.SetActive (true);
         }
 
-        if(PTurn == 2)
+        if(playerID == 2)
         {
 			Canvas2.gameObject.SetActive (false);
 			Canvas1.gameObject.SetActive (true);
@@ -92,11 +91,11 @@ public class CannonSystem : MonoBehaviour
 		Vector3 zeroVector = otherTurretTransform.position - transform.position;
 		float zeroAngle = Vector3.Angle (zeroVector, Vector3.forward);
 
-		if (PTurn == 1) {
+        //if (playerID == 1) {
 			transform.eulerAngles = new Vector3 (heightSlider.value, zeroAngle + angleSlider.value);
-		} else {
-			transform.eulerAngles = new Vector3 (heightSlider.value, zeroAngle + angleSlider.value);
-		}
+		//} else {
+		//	transform.eulerAngles = new Vector3 (heightSlider.value, zeroAngle + angleSlider.value);
+		//}
 //		angleText.text = "Angle: " + transform.eulerAngles.y;
 	}
 

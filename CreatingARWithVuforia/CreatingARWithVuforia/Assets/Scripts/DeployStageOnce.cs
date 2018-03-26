@@ -6,12 +6,18 @@ using UnityEngine.UI;
 
 public class DeployStageOnce : MonoBehaviour {
 
+    [Header("Game Board Objects")]
 	public GameObject AnchorStage;
+    public GameObject PlayStage;
+
 	private PositionalDeviceTracker _deviceTracker;
 	private GameObject _previousAnchor;
 	private int sanity;
 
-    [Header("Canvas Ojects")]
+    MenuManager manager;
+
+    [Header("Canvas Objects")]
+    public Canvas Canvas1;
     public Canvas Canvas2;
 	public Canvas vicCanvas;
 
@@ -31,6 +37,8 @@ public class DeployStageOnce : MonoBehaviour {
 	public void Awake()
 	{
 		VuforiaARController.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
+        manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
+        Debug.Log(manager.sceneSize);
 	}
 
 	public void OnDestroy()
@@ -41,6 +49,7 @@ public class DeployStageOnce : MonoBehaviour {
 	private void OnVuforiaStarted()
 	{
 		_deviceTracker = TrackerManager.Instance.GetTracker<PositionalDeviceTracker>();
+        Canvas1.gameObject.SetActive(true);
 		Canvas2.gameObject.SetActive (false);
 		vicCanvas.gameObject.SetActive (false);
 	}
@@ -59,8 +68,23 @@ public class DeployStageOnce : MonoBehaviour {
 		{
 			AnchorStage.transform.parent = anchor.transform;
 			AnchorStage.transform.localPosition = Vector3.zero;
+            PlayStage.transform.localScale = PlayStage.transform.localScale * manager.sceneSize;
 			AnchorStage.transform.localRotation = Quaternion.identity;
 			AnchorStage.SetActive(true);
+            switch(manager.sceneSize) {
+                case 1:
+                    Time.timeScale = 1.0f;
+                    break;
+                case 2:
+                    Time.timeScale = 1.2f;
+                    break;
+                case 3:
+                    Time.timeScale = 1.4f;
+                    break;
+                default:
+                    Time.timeScale = 1.0f;
+                    break;
+            }
 		}
 
 		sanity++;

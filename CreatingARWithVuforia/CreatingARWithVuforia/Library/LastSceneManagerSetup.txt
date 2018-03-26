@@ -1,4 +1,7 @@
 sceneSetups:
+- path: Assets/Main Menu.unity
+  isLoaded: 0
+  isActive: 0
 - path: Assets/TurretScene.unity
   isLoaded: 1
   isActive: 1

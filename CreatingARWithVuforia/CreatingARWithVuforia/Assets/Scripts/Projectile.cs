@@ -17,6 +17,7 @@ public class Projectile : MonoBehaviour
 	[Header("Object References")]
     public GameObject body;						//The object that holds the mesh portion of the projectile
 	public GameObject explosionParticles;		//The explosion particle system
+    MenuManager manager;
 
 	Rigidbody rigidBody;						//Reference to the rigidbody of the projectile
 	Collider sphereCollider;					//Reference to the collider of the projectile
@@ -25,7 +26,9 @@ public class Projectile : MonoBehaviour
 
     void Awake()
     {
-		//Get references to the collider and rigidbody
+        //Get references to the collider and rigidbody
+        manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
+        transform.localScale = transform.localScale * manager.sceneSize*10;
 		sphereCollider = GetComponent<Collider> ();
 		rigidBody = GetComponent<Rigidbody>();
     }

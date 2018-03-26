@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Main Menu.unity
+    guid: 713ec850f206d49e98bf0db319ebc001
+  - enabled: 1
     path: Assets/TurretScene.unity
     guid: 2a795e2ad4935f7489635fdea1afa96a
