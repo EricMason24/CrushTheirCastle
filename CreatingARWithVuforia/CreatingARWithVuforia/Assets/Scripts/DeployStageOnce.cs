@@ -68,7 +68,7 @@ public class DeployStageOnce : MonoBehaviour {
 		{
 			AnchorStage.transform.parent = anchor.transform;
 			AnchorStage.transform.localPosition = Vector3.zero;
-            PlayStage.transform.localScale = PlayStage.transform.localScale * manager.sceneSize;
+            PlayStage.transform.localScale = new Vector3(manager.sceneSize, manager.sceneSize, manager.sceneSize);
 			AnchorStage.transform.localRotation = Quaternion.identity;
 			AnchorStage.SetActive(true);
             switch(manager.sceneSize) {

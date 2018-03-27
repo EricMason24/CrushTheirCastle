@@ -5,3 +5,6 @@ sceneSetups:
 - path: Assets/TurretScene.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/testing.unity
+  isLoaded: 0
+  isActive: 0

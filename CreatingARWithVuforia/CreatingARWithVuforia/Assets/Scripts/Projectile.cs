@@ -28,7 +28,7 @@ public class Projectile : MonoBehaviour
     {
         //Get references to the collider and rigidbody
         manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
-        transform.localScale = transform.localScale * manager.sceneSize*10;
+        transform.localScale += transform.localScale * manager.sceneSize;
 		sphereCollider = GetComponent<Collider> ();
 		rigidBody = GetComponent<Rigidbody>();
     }

@@ -29,7 +29,7 @@ public class CannonSystem : MonoBehaviour
     public Canvas Canvas1;
     public Canvas Canvas2;
 
-    
+    MenuManager manager;
     Transform projectileSpawnTransform;         //Location where the projectiles should spawn
 	bool canShoot = true;
 	Animator anim;								//Reference to the animator component
@@ -43,9 +43,13 @@ public class CannonSystem : MonoBehaviour
  
 		maxProjectileForce = powerSlider.value;
 
-
+        manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
 		//Get a reference to the animator component
 		anim = GetComponent<Animator> ();
+
+        // Set slider values to match scene size
+        powerSlider.maxValue = powerSlider.maxValue * manager.sceneSize;
+        powerSlider.minValue = powerSlider.minValue * manager.sceneSize;
 	}
 
 	public void FireProjectile()
