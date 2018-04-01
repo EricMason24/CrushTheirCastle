@@ -1,0 +1,42 @@
+Imminent Goals:
+	Single Device:
+		Small medium large -> slider? -midhigh
+		splash screen + tutorial -high
+		actual battlefield -low
+		fix power scaling -med
+		angle bugs
+phone dropped bug
+20% battery bug
+auto reset?
+
+^lowest of the low
+		3 treasure options in splash
+highest: menu-> play tutorial
+
+play -> p1 treasure position, p2 treasure position, size : 1 screen for now -> play button
+
+ingame menu -> options, restart, quit
+
+catapult??? -- hard
+
+texture of the bullet
+
+sound!!
+
+in menu music
+in game music
+paused music
+
+button pressed sound effects
+
+game ending sound effects + music
+
+Castle colors + flags -> p1 red, p2 blue, choose color in pregame screen?
+
+sound effects
+	charge up of turret
+	particle effects on projectile
+on hit sound effect
+EXPOLSIONS
+
+^after all this is done/mostly done, go to multiplayer

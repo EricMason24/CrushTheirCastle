@@ -9,6 +9,8 @@ public class DeployStageOnce : MonoBehaviour {
     [Header("Game Board Objects")]
 	public GameObject AnchorStage;
     public GameObject PlayStage;
+    public GameObject p1Treasure;
+    public GameObject p2Treasure;
 
 	private PositionalDeviceTracker _deviceTracker;
 	private GameObject _previousAnchor;
@@ -39,7 +41,9 @@ public class DeployStageOnce : MonoBehaviour {
 		VuforiaARController.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
         manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
         Debug.Log(manager.sceneSize);
-	}
+        Debug.Log(manager.p1Xpos);
+        Debug.Log(manager.p2Xpos);
+    }
 
 	public void OnDestroy()
 	{
@@ -85,7 +89,9 @@ public class DeployStageOnce : MonoBehaviour {
                     Time.timeScale = 1.0f;
                     break;
             }
-		}
+            p1Treasure.transform.position = new Vector3(manager.p1Xpos, 0, (float)-0.775);
+            p2Treasure.transform.position = new Vector3(manager.p2Xpos, 0, (float)-0.775);
+        }
 
 		sanity++;
 	}
