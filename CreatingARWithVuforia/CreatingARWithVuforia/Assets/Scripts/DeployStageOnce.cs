@@ -89,8 +89,8 @@ public class DeployStageOnce : MonoBehaviour {
                     Time.timeScale = 1.0f;
                     break;
             }
-            p1Treasure.transform.position = new Vector3(manager.p1Xpos, 0, (float)-0.775);
-            p2Treasure.transform.position = new Vector3(manager.p2Xpos, 0, (float)-0.775);
+            p1Treasure.transform.position += new Vector3(manager.p1Xpos,0);
+            p2Treasure.transform.position += new Vector3(manager.p2Xpos,0);
         }
 
 		sanity++;

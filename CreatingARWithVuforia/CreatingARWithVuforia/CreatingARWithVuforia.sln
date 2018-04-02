@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingARWithVuforia", "CreatingARWithVuforia.csproj", "{62B67FC6-8369-9E33-7DB6-670131ECBE62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingARWithVuforia.Editor", "CreatingARWithVuforia.Editor.csproj", "{D93B08B8-06D3-99C7-5BFB-34A09FFA7F7A}"

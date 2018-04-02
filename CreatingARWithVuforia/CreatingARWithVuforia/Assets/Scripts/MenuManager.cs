@@ -5,19 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour {
 
+    [Header ("Canvas References")]
     public Canvas startCanvas;
     public Canvas sizeCanvas;
     public Canvas treasureCanvasP1;
     public Canvas treasureCanvasP2;
 
+    [Header ("Setup Variables")]
     public int sceneSize = 1;
     public float p1Xpos;
     public float p2Xpos;
+
     // Use this for initialization
     void Start () {
         DontDestroyOnLoad(this);
         startCanvas.gameObject.SetActive(true);
         sizeCanvas.gameObject.SetActive(false);
+        treasureCanvasP1.gameObject.SetActive(false);
+        treasureCanvasP2.gameObject.SetActive(false);
 	}
 
     public void startGame() {
@@ -27,8 +32,6 @@ public class MenuManager : MonoBehaviour {
     public void switchToGame(int size) {
         sceneSize = size;
         switchToTreasureCanvas();
-        //SceneManager.LoadSceneAsync(sceneName: "TurretScene");
-        //SceneManager.UnloadSceneAsync(sceneName: "Main Menu");
     }
 
     public void chooseTreasureLoc1(float xpos)
@@ -45,7 +48,6 @@ public class MenuManager : MonoBehaviour {
 
     public void switchToMenu() {
         SceneManager.LoadSceneAsync(sceneName: "Main Menu");
-        //SceneManager.UnloadSceneAsync(sceneName: "TurretScene");
     }
 
     void switchCanvas() {
