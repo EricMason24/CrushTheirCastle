@@ -13,8 +13,8 @@ public class MenuManager : MonoBehaviour {
 
     [Header ("Setup Variables")]
     public int sceneSize = 1;
-    public float p1Xpos;
-    public float p2Xpos;
+    public int p1pos;
+    public int p2pos;
 
     // Use this for initialization
     void Start () {
@@ -34,15 +34,15 @@ public class MenuManager : MonoBehaviour {
         switchToTreasureCanvas();
     }
 
-    public void chooseTreasureLoc1(float xpos)
+    public void chooseTreasureLoc1(int loc)
     {
-        p1Xpos = xpos;
+        p1pos = loc;
         switchToTreasureCanvas();
     }
 
-    public void chooseTreasureLoc2(float xpos)
+    public void chooseTreasureLoc2(int loc)
     {
-        p2Xpos = xpos;
+        p2pos = loc;
         switchToTreasureCanvas();
     }
 
@@ -51,12 +51,12 @@ public class MenuManager : MonoBehaviour {
     }
 
     void switchCanvas() {
-        if (startCanvas.gameObject.active)
+        if (startCanvas.gameObject.activeSelf)
             startCanvas.gameObject.SetActive(false);
         else
             startCanvas.gameObject.SetActive(true);
         
-        if (sizeCanvas.gameObject.active)
+        if (sizeCanvas.gameObject.activeSelf)
             sizeCanvas.gameObject.SetActive(false);
         else
             sizeCanvas.gameObject.SetActive(true);
@@ -64,12 +64,12 @@ public class MenuManager : MonoBehaviour {
 
     void switchToTreasureCanvas()
     {
-        if (treasureCanvasP1.gameObject.active)
+        if (treasureCanvasP1.gameObject.activeSelf)
         {
             treasureCanvasP1.gameObject.SetActive(false);
             treasureCanvasP2.gameObject.SetActive(true);
         }
-        else if(treasureCanvasP2.gameObject.active)
+        else if(treasureCanvasP2.gameObject.activeSelf)
         {
             treasureCanvasP2.gameObject.SetActive(false);
             SceneManager.LoadSceneAsync(sceneName: "TurretScene");

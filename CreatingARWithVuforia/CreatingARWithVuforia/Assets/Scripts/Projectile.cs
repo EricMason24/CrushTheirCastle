@@ -19,8 +19,8 @@ public class Projectile : MonoBehaviour
 	public GameObject explosionParticles;		//The explosion particle system
     MenuManager manager;
 
-	Rigidbody rigidBody;						//Reference to the rigidbody of the projectile
-	Collider sphereCollider;					//Reference to the collider of the projectile
+	//Rigidbody rigidBody;						//Reference to the rigidbody of the projectile
+	//Collider sphereCollider;					//Reference to the collider of the projectile
     //bool exploded;								//Has the projectile exploded?
 
 
@@ -29,8 +29,8 @@ public class Projectile : MonoBehaviour
         //Get references to the collider and rigidbody
         manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
         transform.localScale += transform.localScale * manager.sceneSize;
-		sphereCollider = GetComponent<Collider> ();
-		rigidBody = GetComponent<Rigidbody>();
+		//sphereCollider = GetComponent<Collider> ();
+		//rigidBody = GetComponent<Rigidbody>();
     }
 
 	void Update()

@@ -11,6 +11,11 @@ public class DeployStageOnce : MonoBehaviour {
     public GameObject PlayStage;
     public GameObject p1Treasure;
     public GameObject p2Treasure;
+    public Transform p1TPosRight;
+    public Transform p1TPosLeft;
+    public Transform p2TPosRight;
+    public Transform p2TPosLeft;
+
 
 	private PositionalDeviceTracker _deviceTracker;
 	private GameObject _previousAnchor;
@@ -40,9 +45,10 @@ public class DeployStageOnce : MonoBehaviour {
 	{
 		VuforiaARController.Instance.RegisterVuforiaStartedCallback(OnVuforiaStarted);
         manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
-        Debug.Log(manager.sceneSize);
-        Debug.Log(manager.p1Xpos);
-        Debug.Log(manager.p2Xpos);
+
+        //Debug.Log(manager.sceneSize);
+        //Debug.Log(manager.p1Xpos);
+        //Debug.Log(manager.p2Xpos);
     }
 
 	public void OnDestroy()
@@ -72,7 +78,7 @@ public class DeployStageOnce : MonoBehaviour {
 		{
 			AnchorStage.transform.parent = anchor.transform;
 			AnchorStage.transform.localPosition = Vector3.zero;
-            PlayStage.transform.localScale = new Vector3(manager.sceneSize, manager.sceneSize, manager.sceneSize);
+            PlayStage.transform.localScale = new Vector3(PlayStage.transform.localScale.x * manager.sceneSize, PlayStage.transform.localScale.y * manager.sceneSize, PlayStage.transform.localScale.z * manager.sceneSize);
 			AnchorStage.transform.localRotation = Quaternion.identity;
 			AnchorStage.SetActive(true);
             switch(manager.sceneSize) {
@@ -89,8 +95,14 @@ public class DeployStageOnce : MonoBehaviour {
                     Time.timeScale = 1.0f;
                     break;
             }
-            p1Treasure.transform.position += new Vector3(manager.p1Xpos,0);
-            p2Treasure.transform.position += new Vector3(manager.p2Xpos,0);
+            if (manager.p1pos == 1)
+                p1Treasure.transform.position += p1TPosLeft.position - p1Treasure.transform.position;
+            else if (manager.p1pos == 2)
+                p1Treasure.transform.position += p1TPosRight.position - p1Treasure.transform.position;
+            if (manager.p2pos == 1)
+                p2Treasure.transform.position += p2TPosLeft.position - p2Treasure.transform.position;
+            else if (manager.p2pos == 2)
+                p2Treasure.transform.position += p2TPosRight.position - p2Treasure.transform.position;
         }
 
 		sanity++;

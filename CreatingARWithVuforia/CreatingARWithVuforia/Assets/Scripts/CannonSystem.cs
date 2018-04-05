@@ -30,7 +30,7 @@ public class CannonSystem : MonoBehaviour
     public Canvas Canvas2;
 
     MenuManager manager;
-    Transform projectileSpawnTransform;         //Location where the projectiles should spawn
+    //Transform projectileSpawnTransform;         //Location where the projectiles should spawn
 	bool canShoot = true;
 	Animator anim;								//Reference to the animator component
 
@@ -39,7 +39,7 @@ public class CannonSystem : MonoBehaviour
 	{
 		//Get a reference to the projectile spawn point. By providing the path to the object like this, we are making an 
 		//inefficient method call more efficient
-		projectileSpawnTransform = GameObject.Find("Geometry/Cockpit/Turret Elevation Pivot Point/Projectile Spawn Point").transform;
+		//projectileSpawnTransform = GameObject.Find("Geometry/Cockpit/Turret Elevation Pivot Point/Projectile Spawn Point").transform;
  
 		maxProjectileForce = powerSlider.value;
 

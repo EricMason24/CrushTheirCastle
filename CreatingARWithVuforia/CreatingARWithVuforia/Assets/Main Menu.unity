@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -459,12 +459,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1007881780}
         m_MethodName: chooseTreasureLoc2
-        m_Mode: 4
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
-          m_FloatArgument: 0
+          m_IntArgument: 3
+          m_FloatArgument: 3
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -749,12 +749,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1007881780}
         m_MethodName: chooseTreasureLoc2
-        m_Mode: 4
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
-          m_FloatArgument: 0.2
+          m_IntArgument: 2
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -871,12 +871,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1007881780}
         m_MethodName: chooseTreasureLoc1
-        m_Mode: 4
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
-          m_FloatArgument: -0.1
+          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1511,7 +1511,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1744,8 +1744,8 @@ MonoBehaviour:
   treasureCanvasP1: {fileID: 1828732005}
   treasureCanvasP2: {fileID: 1276074175}
   sceneSize: 1
-  p1Xpos: 0
-  p2Xpos: 0
+  p1pos: 0
+  p2pos: 0
 --- !u!1 &1119836637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,12 +1824,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1007881780}
         m_MethodName: chooseTreasureLoc1
-        m_Mode: 4
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
-          m_FloatArgument: 0
+          m_IntArgument: 3
+          m_FloatArgument: 3
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1946,12 +1946,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1007881780}
         m_MethodName: chooseTreasureLoc2
-        m_Mode: 4
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
-          m_FloatArgument: -0.1
+          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2261,7 +2261,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2885,12 +2885,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1007881780}
         m_MethodName: chooseTreasureLoc1
-        m_Mode: 4
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
-          m_FloatArgument: 0.2
+          m_IntArgument: 2
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
