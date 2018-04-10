@@ -10,6 +10,9 @@ public class MenuManager : MonoBehaviour {
     public Canvas sizeCanvas;
     public Canvas treasureCanvasP1;
     public Canvas treasureCanvasP2;
+    public Canvas tutorialCanvas1;
+    public Canvas tutorialCanvas2;
+    //public Canvas tutorialCanvas3;
 
     [Header ("Setup Variables")]
     public int sceneSize = 1;
@@ -23,7 +26,10 @@ public class MenuManager : MonoBehaviour {
         sizeCanvas.gameObject.SetActive(false);
         treasureCanvasP1.gameObject.SetActive(false);
         treasureCanvasP2.gameObject.SetActive(false);
-	}
+        tutorialCanvas1.gameObject.SetActive(false);
+        tutorialCanvas2.gameObject.SetActive(false);
+        //tutorialCanvas3.gameObject.SetActive(false);
+    }
 
     public void startGame() {
         switchCanvas();
@@ -33,6 +39,8 @@ public class MenuManager : MonoBehaviour {
         sceneSize = size;
         switchToTreasureCanvas();
     }
+
+   
 
     public void chooseTreasureLoc1(int loc)
     {
@@ -80,4 +88,35 @@ public class MenuManager : MonoBehaviour {
             treasureCanvasP1.gameObject.SetActive(true);
         }
     }
+
+    //tutorial transitions
+    public void tutorialBegin()
+    {
+        startCanvas.gameObject.SetActive(false);
+        tutorialCanvas1.gameObject.SetActive(true);
+    }
+
+    public void switchToTutorialCanvas(string canvas)
+    {
+        switch (canvas)
+        {
+            case "TutorialCanvas2":
+                tutorialCanvas1.gameObject.SetActive(false);
+                tutorialCanvas2.gameObject.SetActive(true);
+                //SceneManager.LoadSceneAsync(sceneName: "TutorialScene1");
+                break;
+            case "TutorialCanvas3":
+                tutorialCanvas2.gameObject.SetActive(false);
+                //tutorialCanvas3.gameObject.SetActive(true);
+                SceneManager.LoadSceneAsync(sceneName: "TutorialScene2");
+                break;
+
+            default:
+                tutorialCanvas2.gameObject.SetActive(false);
+                tutorialCanvas1.gameObject.SetActive(true);
+                break;
+
+        }
+    }
 }
+
