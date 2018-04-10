@@ -376,7 +376,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome To Crush Thier Castle
+  m_Text: Welcome To Crush Their Castle
 --- !u!222 &104839274
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2525,8 +2525,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 941840513}
-  m_LocalRotation: {x: 0.20845118, y: 0.014941812, z: 0.003185317, w: -0.97791344}
-  m_LocalPosition: {x: 353.70694, y: -427.76624, z: -472.13754}
+  m_LocalRotation: {x: -0.19518562, y: -0.025636744, z: -0.005184433, w: 0.98041755}
+  m_LocalPosition: {x: -0.027964007, y: -0.40119198, z: -1.3994434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

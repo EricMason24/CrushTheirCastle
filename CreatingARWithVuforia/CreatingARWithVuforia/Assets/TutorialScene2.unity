@@ -17341,9 +17341,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This screen the default screen when playing, note the current player turn
-    at the top. Make sure to move so that you have a good angle on where your turret
-    is aiming!
+  m_Text: This screen is the default screen when playing, note the current player
+    turn at the top. Make sure to move so that you have a good angle on where your
+    turret is aiming!
 --- !u!222 &982133956
 CanvasRenderer:
   m_ObjectHideFlags: 0
