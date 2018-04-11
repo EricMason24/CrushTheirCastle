@@ -39,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1680624288600072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0393, y: 0.1282, z: 0.5187}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -119,8 +119,7 @@ MonoBehaviour:
   targetLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  body: {fileID: 0}
-  explosionParticles: {fileID: 0}
+  explosion: {fileID: 1000010608846784, guid: 6747b1742d70743a8aff8594e708b2f7, type: 2}
 --- !u!135 &135869711289747664
 SphereCollider:
   m_ObjectHideFlags: 1
