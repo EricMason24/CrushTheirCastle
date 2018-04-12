@@ -164,7 +164,7 @@ Transform:
   m_GameObject: {fileID: 1000012714913348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.8499993, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
   m_Father: {fileID: 4000011196859318}
   m_RootOrder: 1
@@ -238,7 +238,7 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: 0.1
+  minSize: 0.001
   maxSize: 0.1
   minEnergy: 1
   maxEnergy: 1.5
@@ -254,7 +254,7 @@ EllipsoidParticleEmitter:
   rndRotation: 1
   Simulate in Worldspace?: 1
   m_OneShot: 1
-  m_Ellipsoid: {x: 1, y: 1, z: 1}
+  m_Ellipsoid: {x: 0.05, y: 0.05, z: 0.05}
   m_MinEmitterRange: 0
 --- !u!15 &15000013977830892
 EllipsoidParticleEmitter:
@@ -265,7 +265,7 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: 3
+  minSize: 0.015
   maxSize: 3.5
   minEnergy: 5
   maxEnergy: 7
@@ -281,7 +281,7 @@ EllipsoidParticleEmitter:
   rndRotation: 1
   Simulate in Worldspace?: 1
   m_OneShot: 1
-  m_Ellipsoid: {x: 1, y: 1, z: 1}
+  m_Ellipsoid: {x: 0.05, y: 0.05, z: 0.05}
   m_MinEmitterRange: 0
 --- !u!23 &23000013889384452
 MeshRenderer:
@@ -578,5 +578,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 774c6fe16d827fe4685d1a5d46eb00cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Radius: 2
-  Force: 50
+  Radius: 0.02
+  Force: 25

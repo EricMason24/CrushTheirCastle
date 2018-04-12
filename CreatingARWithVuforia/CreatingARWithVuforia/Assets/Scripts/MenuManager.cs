@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour {
 
@@ -12,23 +13,66 @@ public class MenuManager : MonoBehaviour {
     public Canvas treasureCanvasP2;
     public Canvas tutorialCanvas1;
     public Canvas tutorialCanvas2;
+    public Canvas optionCanvas;
+    public Slider volumeSlider;
     //public Canvas tutorialCanvas3;
 
     [Header ("Setup Variables")]
     public int sceneSize = 1;
     public int p1pos;
     public int p2pos;
+    public float gameVolume = 1;
 
-    // Use this for initialization
-    void Start () {
+    AudioSource adio;
+
+	private void Awake()
+	{
         DontDestroyOnLoad(this);
+
+        if (FindObjectsOfType(GetType()).Length > 1)
+        {
+            Destroy(gameObject);
+        }
+	}
+
+	// Use this for initialization
+	void Start () {
         startCanvas.gameObject.SetActive(true);
         sizeCanvas.gameObject.SetActive(false);
         treasureCanvasP1.gameObject.SetActive(false);
         treasureCanvasP2.gameObject.SetActive(false);
         tutorialCanvas1.gameObject.SetActive(false);
         tutorialCanvas2.gameObject.SetActive(false);
-        //tutorialCanvas3.gameObject.SetActive(false);
+        optionCanvas.gameObject.SetActive(false);
+        adio = GetComponent<AudioSource>();
+        adio.volume = gameVolume;
+        adio.Play();
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        //do stuff
+        if (SceneManager.GetActiveScene().name == "Main Menu")
+        {
+            startCanvas.gameObject.SetActive(true);
+            sizeCanvas.gameObject.SetActive(false);
+            treasureCanvasP1.gameObject.SetActive(false);
+            treasureCanvasP2.gameObject.SetActive(false);
+            tutorialCanvas1.gameObject.SetActive(false);
+            tutorialCanvas2.gameObject.SetActive(false);
+            optionCanvas.gameObject.SetActive(false);
+        }
+
     }
 
     public void startGame() {
@@ -55,7 +99,16 @@ public class MenuManager : MonoBehaviour {
     }
 
     public void switchToMenu() {
-        SceneManager.LoadSceneAsync(sceneName: "Main Menu");
+        if (SceneManager.GetActiveScene().name == "Main Menu") {
+            startCanvas.gameObject.SetActive(true);
+            sizeCanvas.gameObject.SetActive(false);
+            treasureCanvasP1.gameObject.SetActive(false);
+            treasureCanvasP2.gameObject.SetActive(false);
+            tutorialCanvas1.gameObject.SetActive(false);
+            tutorialCanvas2.gameObject.SetActive(false);
+            optionCanvas.gameObject.SetActive(false);
+        } else
+            SceneManager.LoadSceneAsync(sceneName: "Main Menu");
     }
 
     void switchCanvas() {
@@ -117,6 +170,21 @@ public class MenuManager : MonoBehaviour {
                 break;
 
         }
+    }
+
+    public void optionsCanvas() {
+        startCanvas.gameObject.SetActive(false);
+        optionCanvas.gameObject.SetActive(true);
+    }
+
+    public void changeVolume(float volume) {
+        if (volume < 0)
+            adio.volume = volumeSlider.value;
+        else
+            adio.volume = volume;
+        
+        volumeSlider.value = adio.volume;
+        gameVolume = adio.volume;
     }
 }
 

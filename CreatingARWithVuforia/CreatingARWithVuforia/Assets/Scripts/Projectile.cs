@@ -9,7 +9,7 @@ public class Projectile : MonoBehaviour
     [Header("Projectile Properties")]
     public float lifeTime = 2.0f;               //The amount of time the projectile lives
     public float gravity = 9.8f;
-    public float explosionDuration = 1f;
+    public float explosionDuration = .25f;
     public float explosionForce = 100f;         //The amount of force the projectile explodes with
     public float explosionRadius = 4f;          //The radius of the explosion
     public LayerMask targetLayerMask;           //The layermask that determines which objects are affected by the explosion
@@ -75,7 +75,7 @@ public class Projectile : MonoBehaviour
         //if (exploded)
             //return;
 
-        Instantiate(explosion, transform, false);
+        Instantiate(explosion, transform.position, transform.rotation);
 
         //Find all colliders that are with the explosion radius that are also on the target layer
         //Collider[] colliders = Physics.OverlapSphere(transform.position, explosionRadius, targetLayerMask);
@@ -88,6 +88,7 @@ public class Projectile : MonoBehaviour
         //    rb.AddExplosionForce(explosionForce, transform.position, explosionRadius, 2f);
         //}
 
-        Destroy(gameObject, explosionDuration);
+        GetComponent<Collider>().enabled = false;
+        Destroy(gameObject);
     }
 }

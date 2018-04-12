@@ -119,7 +119,7 @@ MonoBehaviour:
   targetLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  explosion: {fileID: 1000010608846784, guid: 6747b1742d70743a8aff8594e708b2f7, type: 2}
+  explosion: {fileID: 100000, guid: e0dc4d47bced6d54ab1461804114b5d0, type: 2}
 --- !u!135 &135869711289747664
 SphereCollider:
   m_ObjectHideFlags: 1

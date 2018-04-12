@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 11100000}
   - component: {fileID: 8200000}
+  - component: {fileID: 114554186258503404}
   m_Layer: 0
   m_Name: Graphic explosion
   m_TagString: Untagged
@@ -80,8 +81,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.802948, y: -2.4825983, z: 20.85522}
-  m_LocalScale: {x: 0.41079724, y: 0.41079724, z: 0.4447261}
+  m_LocalPosition: {x: 2.689, y: -2.275, z: -4.507}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 400002}
   - {fileID: 400004}
@@ -97,7 +98,7 @@ Transform:
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 0
@@ -110,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 1
@@ -123,7 +124,7 @@ Transform:
   m_GameObject: {fileID: 161728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.85, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 2
@@ -197,15 +198,15 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: 3
-  maxSize: 3.5
-  minEnergy: 5
-  maxEnergy: 7
+  minSize: 0.001
+  maxSize: 0.1
+  minEnergy: 2
+  maxEnergy: 4
   minEmission: 14
   maxEmission: 16
   worldVelocity: {x: 0, y: 0, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
-  rndVelocity: {x: 0.5, y: 0.5, z: 0.5}
+  rndVelocity: {x: 0.25, y: 0.25, z: 0.25}
   emitterVelocityScale: 0.05
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
@@ -213,7 +214,7 @@ EllipsoidParticleEmitter:
   rndRotation: 1
   Simulate in Worldspace?: 1
   m_OneShot: 1
-  m_Ellipsoid: {x: 1, y: 1, z: 1}
+  m_Ellipsoid: {x: 0.001, y: 0.001, z: 0.001}
   m_MinEmitterRange: 0
 --- !u!15 &1500002
 EllipsoidParticleEmitter:
@@ -224,23 +225,23 @@ EllipsoidParticleEmitter:
   serializedVersion: 2
   m_Enabled: 1
   m_Emit: 1
-  minSize: 0.1
-  maxSize: 0.1
-  minEnergy: 1
-  maxEnergy: 1.5
-  minEmission: 150
-  maxEmission: 150
+  minSize: 0.001
+  maxSize: 0.01
+  minEnergy: 0.5
+  maxEnergy: 1
+  minEmission: 100
+  maxEmission: 100
   worldVelocity: {x: 0, y: 0, z: 0}
   localVelocity: {x: 0, y: 0, z: 0}
-  rndVelocity: {x: 8, y: 8, z: 8}
-  emitterVelocityScale: 0.05
+  rndVelocity: {x: 2, y: 2, z: 2}
+  emitterVelocityScale: 0.0025
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 0
   rndAngularVelocity: 0
   rndRotation: 1
   Simulate in Worldspace?: 1
   m_OneShot: 1
-  m_Ellipsoid: {x: 1, y: 1, z: 1}
+  m_Ellipsoid: {x: 0.01, y: 0.01, z: 0.01}
   m_MinEmitterRange: 0
 --- !u!23 &2300000
 MeshRenderer:
@@ -462,7 +463,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.99607843, g: 0.67058825, b: 0.22352941, a: 1}
   m_Intensity: 6
-  m_Range: 15
+  m_Range: 1
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -537,3 +538,16 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
+--- !u!114 &114554186258503404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37fac21d1f093d344816942d1abce94e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TimeOut: 0.25
+  m_DetachChildren: 0

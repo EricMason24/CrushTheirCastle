@@ -334,6 +334,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\canvasManager.cs" />
+    <Compile Include="Assets\dontDestroy.cs" />
     <Compile Include="Assets\HolyShift\Scripts\CheckForStandardAssets.cs" />
     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
