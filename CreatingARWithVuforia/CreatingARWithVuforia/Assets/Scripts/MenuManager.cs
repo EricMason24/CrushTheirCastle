@@ -16,7 +16,7 @@ public class MenuManager : MonoBehaviour {
     public Canvas optionCanvas;
     public Slider volumeSlider;
     //public Canvas tutorialCanvas3;
-
+    VolumeHolder vHolder;
     [Header ("Setup Variables")]
     public int sceneSize = 1;
     public int p1pos;
@@ -33,10 +33,15 @@ public class MenuManager : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-	}
+	} 
 
 	// Use this for initialization
 	void Start () {
+        adio = GetComponent<AudioSource>();
+        vHolder = GameObject.Find("KeeperOfVolume").GetComponent<VolumeHolder>();
+        gameVolume = vHolder.volume;
+        print(gameVolume);
+        volumeSlider.value = vHolder.volume;
         startCanvas.gameObject.SetActive(true);
         sizeCanvas.gameObject.SetActive(false);
         treasureCanvasP1.gameObject.SetActive(false);
@@ -44,7 +49,6 @@ public class MenuManager : MonoBehaviour {
         tutorialCanvas1.gameObject.SetActive(false);
         tutorialCanvas2.gameObject.SetActive(false);
         optionCanvas.gameObject.SetActive(false);
-        adio = GetComponent<AudioSource>();
         adio.volume = gameVolume;
         adio.Play();
     }
@@ -185,6 +189,7 @@ public class MenuManager : MonoBehaviour {
         
         volumeSlider.value = adio.volume;
         gameVolume = adio.volume;
+        vHolder.updateHolder();
     }
 }
 

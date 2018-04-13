@@ -12,6 +12,7 @@ public class TutorialScript : MonoBehaviour {
     public Canvas Canvas4;
     public Camera mainCam;
 
+    VolumeHolder vHolder;
 
 
 
@@ -24,6 +25,7 @@ public class TutorialScript : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
+        vHolder = GameObject.Find("KeeperOfVolume").GetComponent<VolumeHolder>();
         Canvas1.gameObject.SetActive(true);
         Canvas2.gameObject.SetActive(false);
         Canvas3.gameObject.SetActive(false);
@@ -64,8 +66,11 @@ public class TutorialScript : MonoBehaviour {
 
     public void returnToMenu()
     {
+        vHolder.updateHolder();
         Canvas1.gameObject.SetActive(false);
         Canvas2.gameObject.SetActive(false);
-        SceneManager.LoadSceneAsync("Main Menu");
+        Destroy(GameObject.Find("MenuManager"));
+        SceneManager.LoadScene("Main Menu");
+        
     }
 }

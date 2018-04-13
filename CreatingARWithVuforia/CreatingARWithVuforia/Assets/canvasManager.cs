@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class canvasManager : MonoBehaviour {
 
@@ -12,12 +13,14 @@ public class canvasManager : MonoBehaviour {
     public Slider volumeSlider;
 
     MenuManager menu;
+    VolumeHolder vHolder;
 
     private bool p1Turn = true;
 
 	// Use this for initialization
 	void Start () {
         menu = GameObject.Find("MenuManager").GetComponent<MenuManager>();
+        vHolder = GameObject.Find("KeeperOfVolume").GetComponent<VolumeHolder>();
         volumeSlider.value = menu.GetComponent<AudioSource>().volume;
 	}
 	
@@ -52,6 +55,8 @@ public class canvasManager : MonoBehaviour {
     }
 
     public void exit() {
-        menu.switchToMenu();
+        vHolder.updateHolder();
+        Destroy(GameObject.Find("MenuManager"));
+        SceneManager.LoadSceneAsync("Main Menu");
     }
 }
