@@ -257,7 +257,7 @@ CanvasRenderer:
 GameObject:
   m_PrefabParentObject: {fileID: 1246620903898776, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
 --- !u!1 &173436120
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,7 +450,7 @@ RectTransform:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
   m_Script: {fileID: 11500000, guid: 01a0aa9f32c4ce84ea6e3697c5f04b34, type: 3}
 --- !u!1 &236702805
 GameObject:
@@ -521,7 +521,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.19999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -763,7 +763,7 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 4663159734240722, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
 --- !u!1 &406753858
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +841,7 @@ RectTransform:
 Transform:
   m_PrefabParentObject: {fileID: 4059739209886146, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
 --- !u!224 &514196464
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1348,1384 +1348,16 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 562041847}
---- !u!1001 &627905980
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1674098494}
-    m_Modifications:
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: angleSlider
-      value: 
-      objectReference: {fileID: 337212766}
-    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: angleText
-      value: 
-      objectReference: {fileID: 1587605441}
-    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: heightSlider
-      value: 
-      objectReference: {fileID: 1522787800}
-    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: powerSlider
-      value: 
-      objectReference: {fileID: 2107604825}
-    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: angleSlider
-      value: 
-      objectReference: {fileID: 514196468}
-    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: angleText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: heightSlider
-      value: 
-      objectReference: {fileID: 514196466}
-    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: powerSlider
-      value: 
-      objectReference: {fileID: 1411884560}
-    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: victoryText
-      value: 
-      objectReference: {fileID: 1604816800}
-    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas1
-      value: 
-      objectReference: {fileID: 946485810}
-    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: Canvas2
-      value: 
-      objectReference: {fileID: 514196465}
-    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: vicCanvas
-      value: 
-      objectReference: {fileID: 1317605566}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 65914320188971950, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 65914320188971950, guid: bca04908b75f74407b83bbdb18d45567,
-        type: 2}
-      propertyPath: m_Size.z
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4467490680395888, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
-  m_IsPrefabParent: 0
 --- !u!4 &627905981 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
 --- !u!1 &627905990 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1371819944909428, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
 --- !u!1 &631541979
 GameObject:
   m_ObjectHideFlags: 0
@@ -3067,7 +1699,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3165,7 +1797,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -3432,7 +2064,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &856388702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3504,8 +2136,8 @@ RectTransform:
   m_Father: {fileID: 1838624864}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.19999999}
+  m_AnchorMax: {x: 1, y: 0.19999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3647,7 +2279,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3690,7 +2322,7 @@ CanvasRenderer:
 GameObject:
   m_PrefabParentObject: {fileID: 1654277123129244, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
 --- !u!1 &1145574627
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,7 +2697,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4422,19 +3054,29 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 224360491284680360, guid: 70c370661703a4166a6b6e59a4950b21,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 224360491284680360, guid: 70c370661703a4166a6b6e59a4950b21,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 224360491284680360, guid: 70c370661703a4166a6b6e59a4950b21,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 224360491284680360, guid: 70c370661703a4166a6b6e59a4950b21,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -40
+      objectReference: {fileID: 0}
     - target: {fileID: 1865061918437948, guid: 70c370661703a4166a6b6e59a4950b21, type: 2}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114452420360958134, guid: 70c370661703a4166a6b6e59a4950b21,
-        type: 2}
-      propertyPath: m_FontData.m_Alignment
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114542010409588130, guid: 70c370661703a4166a6b6e59a4950b21,
-        type: 2}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 70c370661703a4166a6b6e59a4950b21, type: 2}
@@ -4475,8 +3117,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.19723019}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 30, y: -80}
+  m_AnchoredPosition: {x: 50, y: -20}
+  m_SizeDelta: {x: 30, y: -120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411884560
 MonoBehaviour:
@@ -4899,8 +3541,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.19723019}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: -15}
-  m_SizeDelta: {x: 30, y: -50}
+  m_AnchoredPosition: {x: -50, y: -35}
+  m_SizeDelta: {x: 30, y: -90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1544817235
 GameObject:
@@ -5671,7 +4313,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1585958343}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 637508174}
@@ -5680,8 +4322,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30, y: -30}
-  m_SizeDelta: {x: 30, y: 30}
+  m_AnchoredPosition: {x: -50, y: -40}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585958345
 MonoBehaviour:
@@ -6049,7 +4691,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1674098492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5ca2677089774dadaa882ba7596a9ad, type: 3}
+  m_Script: {fileID: 11500000, guid: 9494723fea2ad450cb6adc2a1f5bb3a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   p1Canvas: {fileID: 946485810}
@@ -6282,7 +4924,7 @@ CanvasRenderer:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
   m_Script: {fileID: 11500000, guid: 01a0aa9f32c4ce84ea6e3697c5f04b34, type: 3}
 --- !u!1 &1838624863
 GameObject:
@@ -6324,12 +4966,1349 @@ RectTransform:
 Transform:
   m_PrefabParentObject: {fileID: 4507001816997284, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
 --- !u!4 &1876820880 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4832350298797572, guid: bca04908b75f74407b83bbdb18d45567,
     type: 2}
-  m_PrefabInternal: {fileID: 627905980}
+  m_PrefabInternal: {fileID: 1896793595}
+--- !u!1001 &1896793595
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1674098494}
+    m_Modifications:
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379370041949898, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114931337891575612, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114920409183156684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114911743668796460, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114905115846341766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114897004136800266, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114885981290502474, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114873687826981574, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114868067141522758, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114850639387004888, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114830585536307188, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114823036735732342, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114819223393324794, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114808767593934800, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114785251577909486, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114776078871159690, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114760192034928856, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114753221846794112, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114737995890863886, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114725726276529848, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114720171495507734, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114714573513063138, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114703031381212606, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114687432393628216, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114632329355644870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114613836931438276, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114612412602830166, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114590961089594270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114560708876009076, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114531202963121206, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114523734100929960, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114514734808713368, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114492478038743646, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114451260849904986, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114446418685054438, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114426513683735742, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114423666618635270, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114418687730158408, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114415772512993798, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114386734389042102, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114384627017149234, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114380969138658386, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114379620918739784, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114343269652744766, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114342316828036422, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114263957159849650, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114260371990028300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114226938482486100, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114209101726097398, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114187181957205924, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114174216331175068, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114169513644494254, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114135128272754830, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114119281025514974, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114114018824945738, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114102459786757684, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114098673588683546, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114089670964198736, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114086255561304172, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114076730461769300, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114069873587481246, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114035967218391718, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: victoryText
+      value: 
+      objectReference: {fileID: 1604816800}
+    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114034689948465870, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: vicCanvas
+      value: 
+      objectReference: {fileID: 1317605566}
+    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: angleSlider
+      value: 
+      objectReference: {fileID: 337212766}
+    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: angleText
+      value: 
+      objectReference: {fileID: 1587605441}
+    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: heightSlider
+      value: 
+      objectReference: {fileID: 1522787800}
+    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: powerSlider
+      value: 
+      objectReference: {fileID: 2107604825}
+    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114810924625797806, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: angleSlider
+      value: 
+      objectReference: {fileID: 514196468}
+    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: heightSlider
+      value: 
+      objectReference: {fileID: 514196466}
+    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: powerSlider
+      value: 
+      objectReference: {fileID: 1411884560}
+    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas1
+      value: 
+      objectReference: {fileID: 946485810}
+    - target: {fileID: 114673471115167344, guid: bca04908b75f74407b83bbdb18d45567,
+        type: 2}
+      propertyPath: Canvas2
+      value: 
+      objectReference: {fileID: 514196465}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bca04908b75f74407b83bbdb18d45567, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1938826035
 GameObject:
   m_ObjectHideFlags: 0
@@ -6427,8 +6406,8 @@ RectTransform:
   m_Father: {fileID: 553885680}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

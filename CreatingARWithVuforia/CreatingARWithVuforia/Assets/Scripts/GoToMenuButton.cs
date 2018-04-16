@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class GoToMenuButton : MonoBehaviour {
 
-    MenuManager manager;
+    canvasManager manager;
 
 	// Use this for initialization
 	void Start () {
-        manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
-        GetComponent<Button>().onClick.AddListener(manager.switchToMenu);
+        manager = GameObject.Find("Ground Plane Stage").GetComponent<canvasManager>();
+        GetComponent<Button>().onClick.AddListener(manager.exit);
 	}
 }
