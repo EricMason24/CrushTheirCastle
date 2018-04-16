@@ -61,7 +61,23 @@ public class CannonSystem : MonoBehaviour
             bulletPrefab,
             bulletSpawn.position,
             bulletSpawn.rotation);
-
+        Vector3 bulletScale = bullet.gameObject.transform.localScale;
+        //change these values:
+        float size2Scale = (float)1.15;
+        float size3Scale = (float)1.75;
+        switch (manager.sceneSize)
+        {
+            case 2:
+                //need to change numbers to be the right values -- playtest
+                bullet.gameObject.transform.localScale = new Vector3(bulletScale.x * size2Scale, bulletScale.y * size2Scale, bulletScale.z * size2Scale);
+                break;
+            case 3:
+                //same here
+                bullet.gameObject.transform.localScale = new Vector3(bulletScale.x * size3Scale, bulletScale.y * size3Scale, bulletScale.z * size3Scale);
+                break;
+            default:
+                break;
+        }
 		bullet.tag = "p" + playerID;
 
         // Add velocity to the bullet
@@ -104,8 +120,23 @@ public class CannonSystem : MonoBehaviour
 	}
 
 	public void changePower() {
-		maxProjectileForce = powerSlider.value;
-	}
+        float size2Scale = (float)1.15;
+        float size3Scale = (float)1.75;
+        switch (manager.sceneSize)
+        {
+            case 2:
+                //need to change numbers to be the right values -- playtest
+                maxProjectileForce = powerSlider.value * size2Scale;
+                break;
+            case 3:
+                //same here
+                maxProjectileForce = powerSlider.value * size3Scale;
+                break;
+            default:
+                maxProjectileForce = powerSlider.value;
+                break;
+        }
+    }
 
 	void CoolDown()
 	{

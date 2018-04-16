@@ -16,7 +16,6 @@ public class DeployStageOnce : MonoBehaviour {
     public Transform p2TPosRight;
     public Transform p2TPosLeft;
 
-
 	private PositionalDeviceTracker _deviceTracker;
 	private GameObject _previousAnchor;
 	private int sanity;
@@ -86,6 +85,7 @@ public class DeployStageOnce : MonoBehaviour {
                     Time.timeScale = 1.0f;
                     break;
                 case 2:
+
                     Time.timeScale = 1.2f;
                     break;
                 case 3:
