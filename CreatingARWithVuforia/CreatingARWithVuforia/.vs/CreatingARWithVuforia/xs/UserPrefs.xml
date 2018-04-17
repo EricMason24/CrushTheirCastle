@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{62B67FC6-8369-9E33-7DB6-670131ECBE62}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GoToMenuButton.cs">
     <Files>
       <File FileName="Assets/Scripts/CannonSystem.cs" Line="42" Column="7" />
-      <File FileName="Assets/Scripts/Target.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Target.cs" Line="26" Column="42" />
       <File FileName="Assets/Scripts/Projectile.cs" Line="92" Column="29" />
       <File FileName="Assets/Scripts/DeployStageOnce.cs" Line="109" Column="3" />
-      <File FileName="Assets/Scripts/MenuManager.cs" Line="135" Column="57" />
-      <File FileName="Assets/Scripts/GoToMenuButton.cs" Line="14" Column="3" />
+      <File FileName="Assets/Scripts/MenuManager.cs" Line="70" Column="10" />
+      <File FileName="Assets/Scripts/GoToMenuButton.cs" Line="15" Column="2" />
       <File FileName="Assets/Scripts/decorations.cs" Line="9" Column="70" />
       <File FileName="Assets/Scripts/BlackHole.cs" Line="5" Column="19" />
       <File FileName="Assets/Scripts/TutorialScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Simple Explosion/Demo/Script (for Demo)/ExplosionControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/canvasManager.cs" Line="21" Column="17" />
+      <File FileName="Assets/Scripts/canvasManager.cs" Line="60" Column="29" />
       <File FileName="Assets/dontDestroy.cs" Line="9" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
