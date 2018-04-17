@@ -84,13 +84,13 @@ public class DeployStageOnce : MonoBehaviour {
                 case 1:
                     Time.timeScale = 1.0f;
                     break;
-                case 2:
+                //case 2:
 
-                    Time.timeScale = 1.2f;
-                    break;
-                case 3:
-                    Time.timeScale = 1.4f;
-                    break;
+                //    Time.timeScale = 1.2f;
+                //    break;
+                //case 3:
+                    //Time.timeScale = 1.4f;
+                    //break;
                 default:
                     Time.timeScale = 1.0f;
                     break;

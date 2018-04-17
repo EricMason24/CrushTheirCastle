@@ -11,7 +11,7 @@ public class CannonSystem : MonoBehaviour
     public int playerID;
 
 	[Header("Firing Properties")]
-	public float maxProjectileForce = 1f;   //Maximum force of a projectile
+	public float projectileForce = 1f;   //Maximum force of a projectile
 	public float cooldown = 1f;
 
 	[Header("Projectile Properties")]
@@ -41,7 +41,7 @@ public class CannonSystem : MonoBehaviour
 		//inefficient method call more efficient
 		//projectileSpawnTransform = GameObject.Find("Geometry/Cockpit/Turret Elevation Pivot Point/Projectile Spawn Point").transform;
  
-		maxProjectileForce = powerSlider.value;
+		projectileForce = powerSlider.value;
 
         manager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
 		//Get a reference to the animator component
@@ -62,27 +62,28 @@ public class CannonSystem : MonoBehaviour
             bulletSpawn.position,
             bulletSpawn.rotation);
         Vector3 bulletScale = bullet.gameObject.transform.localScale;
+        bullet.gameObject.tag = gameObject.tag;
         //change these values:
-        float size2Scale = (float)1.15;
-        float size3Scale = (float)1.75;
-        switch (manager.sceneSize)
-        {
-            case 2:
-                //need to change numbers to be the right values -- playtest
-                bullet.gameObject.transform.localScale = new Vector3(bulletScale.x * size2Scale, bulletScale.y * size2Scale, bulletScale.z * size2Scale);
-                break;
-            case 3:
-                //same here
-                bullet.gameObject.transform.localScale = new Vector3(bulletScale.x * size3Scale, bulletScale.y * size3Scale, bulletScale.z * size3Scale);
-                break;
-            default:
-                break;
-        }
+        //float size2Scale = (float)1.15;
+        //float size3Scale = (float)1.75;
+        //switch (manager.sceneSize)
+        //{
+        //    case 2:
+        //        //need to change numbers to be the right values -- playtest
+        //        bullet.gameObject.transform.localScale = new Vector3(bulletScale.x * size2Scale, bulletScale.y * size2Scale, bulletScale.z * size2Scale);
+        //        break;
+        //    case 3:
+        //        //same here
+        //        bullet.gameObject.transform.localScale = new Vector3(bulletScale.x * size3Scale, bulletScale.y * size3Scale, bulletScale.z * size3Scale);
+        //        break;
+        //    default:
+        //        break;
+        //}
 		bullet.tag = "p" + playerID;
 
         // Add velocity to the bullet
 //        Vector3 speed = new Vector3(1, 0, 0);
-		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * maxProjectileForce;
+		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * projectileForce;
 //        bullet.GetComponent<Rigidbody>().angularVelocity = bullet.transform.up;
 
         // Destroy the bullet after 2 seconds
@@ -120,20 +121,20 @@ public class CannonSystem : MonoBehaviour
 	}
 
 	public void changePower() {
-        float size2Scale = (float)1.15;
-        float size3Scale = (float)1.75;
+        float size2Scale = (float)1;
+        float size3Scale = (float)1;
         switch (manager.sceneSize)
         {
-            case 2:
-                //need to change numbers to be the right values -- playtest
-                maxProjectileForce = powerSlider.value * size2Scale;
-                break;
-            case 3:
-                //same here
-                maxProjectileForce = powerSlider.value * size3Scale;
-                break;
+            //case 2:
+            //    //need to change numbers to be the right values -- playtest
+            //    projectileForce = powerSlider.value * size2Scale;
+            //    break;
+            //case 3:
+                ////same here
+                //projectileForce = powerSlider.value * size3Scale;
+                //break;
             default:
-                maxProjectileForce = powerSlider.value;
+                projectileForce = powerSlider.value;
                 break;
         }
     }
